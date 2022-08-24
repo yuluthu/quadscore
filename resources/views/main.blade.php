@@ -16,7 +16,7 @@
     <script defer src="assets/plugins/fontawesome/js/all.min.js"></script>
     
     <!-- App CSS -->  
-    {{-- @include(public_path('css/portal.css')) --}}
+    <link href="{{ asset('css/portal.css') }}" rel="stylesheet">
 
 </head> 
 
